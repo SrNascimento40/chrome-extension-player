@@ -1,0 +1,28 @@
+body, html {
+    background-color: #342B1C;
+    color: #FFFFE5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    padding: 10px 30px;
+    gap: 5px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+div{
+    margin-top: 10px;
+}
+
+button{
+    margin: 5px;
+    border-radius: 5px;
+    border: solid 3px #FFFFE5;
+    background-color: #FFFFE5;
+    color:  #342B1C;
+}
