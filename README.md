@@ -1,2 +1,2 @@
-# daily-word-extension
-Chrome extension that play a random music while you navigate.
+# chrome-extension-player
+Chrome extension that play some music while you navigate.
