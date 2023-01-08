@@ -1,14 +1,10 @@
 {
-    "name": "Music player",
+    "name": "To do list",
     "version": "0.01",
-    "description": "Listen to music while you navigate.",
+    "description": "An extension with your To-Do list.",
     "browser_action": {
-        "default_title": "Music player",
+        "default_title": "todo list",
         "default_popup": "popout.html"
-    },
-    "background": {
-        "page": "background.html",
-        "persistent": true
     },
     "manifest_version": 2
 }

@@ -6,23 +6,48 @@ body, html {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    width: 300px;
     margin: 0;
-    padding: 10px 30px;
+    padding: 0;
     gap: 5px;
 }
 
 h1 {
+    margin-top: 1.25rem;
     font-size: 3rem;
 }
 
-div{
-    margin-top: 10px;
+ul {
+    padding: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 90%;
+    padding: 0 1rem;
 }
 
-button{
-    margin: 5px;
-    border-radius: 5px;
-    border: solid 3px #FFFFE5;
-    background-color: #FFFFE5;
-    color:  #342B1C;
+li {
+    font-size: 1.125rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25rem;
+    border-bottom: 2px solid #FFFFE5;
+}
+
+li:hover{
+    background: rgba(255, 255, 229, 0.25);
+}
+
+div {
+    margin-left: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.done .todo-complete{
+    text-decoration: line-through;
+}
+
+.emoji {
+    cursor: pointer;
 }
